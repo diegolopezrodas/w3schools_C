@@ -1,8 +1,8 @@
 /**************************************
 
     CREATED BY     : Diego Lopez-Rodas
-    CREATION DATE  : 06/10/2025
-    UPDATED DATE   : 06/10/2025
+    CREATION DATE  : 06/11/2025
+    UPDATED DATE   : 06/12/2025
     Description    : Following the "C Variables - ALL SECTIONS" page's instructions from w3schools.
 
  **************************************/
@@ -64,6 +64,14 @@ int main(void){
 
     //SECTION 4 - Multiple Variables
 
+    //Declaring multiple int variables in the same line
+    int x = 10, y = 20, z = 30;
+    printf("Sum of three variables: %d\n\n", x + y + z);
+
+    //Assigning same value to int variables in same line
+    int a, b, c;
+    a = b = c = 50; 
+    printf("Sum of three variables: %d\n\n", a + b + c);
 
     return 0;
 }
