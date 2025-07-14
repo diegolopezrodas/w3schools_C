@@ -36,7 +36,7 @@ int main(void){
     printf("Printing s1's members:\n\n");
     printf("My number in s1: %d\n",      s1.myNum);
     printf("My character in s1: %c\n",   s1.myChar);
-    printf("My string in s1: %s\n\n", s1.myString);
+    printf("My string in s1: %s\n\n",    s1.myString);
 
     //Simpler Assignment Syntax
     struct testStructure s2 = {64, 'A', "This is more text"};
@@ -45,7 +45,7 @@ int main(void){
     printf("Printing s2's members:\n\n");
     printf("My number in s2: %d\n",      s2.myNum);
     printf("My character in s2: %c\n",   s2.myChar);
-    printf("My string in s2: %s\n\n", s2.myString);
+    printf("My string in s2: %s\n\n",    s2.myString);
 
     //Copying structures
     struct testStructure s3;
@@ -55,7 +55,7 @@ int main(void){
     printf("Printing s3's members:\n\n");
     printf("My number in s3: %d\n",      s3.myNum);
     printf("My character in s3: %c\n",   s3.myChar);
-    printf("My string in s3: %s\n\n", s3.myString);
+    printf("My string in s3: %s\n\n",    s3.myString);
 
     //Modifying s3's members
     s3.myNum  = 40;
@@ -66,7 +66,7 @@ int main(void){
     printf("Printing s3's NEW members:\n\n");
     printf("My number in s3: %d\n",      s3.myNum);
     printf("My character in s3: %c\n",   s3.myChar);
-    printf("My string in s3: %s\n\n", s3.myString);
+    printf("My string in s3: %s\n\n",    s3.myString);
 
     return 0;
 }
