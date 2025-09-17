@@ -10,7 +10,7 @@
 
 /****************************************************************
   The #ifndef, #define, and #endif are called include guards
-  They prevent the code from being including more than once
+  They prevent the code from being included more than once
   by mistake, this is recommended practice in ALL C header files
  ****************************************************************/
 
